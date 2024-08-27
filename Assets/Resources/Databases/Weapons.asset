@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff9f387fc5f4c898c7bb96abfdf9a29, type: 3}
+  m_Name: Weapons
+  m_EditorClassIdentifier: 
+  _data:
+  - Key: weapon_1
+    Value:
+      _preview:
+        m_AssetGUID: 23c9fee9d3c8fdc45a76b0eedaa50adb
+        m_SubObjectName: weapon_1_preview
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      _projectile:
+        m_AssetGUID: e0e76f2569443594db4c7b6497cba019
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      _size: 0.25
+      _speed: 5
+      _recharge: 1
+      _damage: 50
+      _emitOnShot: 5
+      _shotByParticles: 1
+      _shotDelay: 0.1
+      _lifetime: 1.5
+  - Key: weapon_2
+    Value:
+      _preview:
+        m_AssetGUID: 198f9a0672b8d9d40b47a8bb68236178
+        m_SubObjectName: weapon_2_preview
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      _projectile:
+        m_AssetGUID: a10967b21d2c90047b1619ac613418e3
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+      _size: 0.25
+      _speed: 5
+      _recharge: 2
+      _damage: 10
+      _emitOnShot: 30
+      _shotByParticles: 5
+      _shotDelay: 0.01
+      _lifetime: 1

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Mag
+  m_EditorClassIdentifier: 
+  m_GroupName: Mag
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 169122864cf58ff4f90661c52894f861
+  m_SerializeEntries:
+  - m_GUID: 1ff691264bceb62458c15adeb3265986
+    m_Address: Assets/Content/Characters/Mag/Prefabs/wizard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7dd5d1141893a63478b12ee143bc58e8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8a888c499e83e3d4f9cf5331912e2c03, type: 2}
+    - {fileID: 11400000, guid: d6b3cc4b189118b47bf4474cc3d87ffe, type: 2}

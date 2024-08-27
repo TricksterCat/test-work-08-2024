@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f983506a5d4a78afff913ba0a1e593, type: 3}
+  m_Name: Views
+  m_EditorClassIdentifier: 
+  _data:
+  - Key: main_menu_screen
+    Value:
+      _destroyOnHide: 1
+      _prefab:
+        m_AssetGUID: ff081ebda7531a745bb0a156ca2cd070
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - Key: game_screen
+    Value:
+      _destroyOnHide: 1
+      _prefab:
+        m_AssetGUID: d7fe08bdc600bc74b8e8ca95037d1585
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - Key: gameover_popup
+    Value:
+      _destroyOnHide: 1
+      _prefab:
+        m_AssetGUID: 3989bc98a1efa174e9daaab0e9f8c457
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0

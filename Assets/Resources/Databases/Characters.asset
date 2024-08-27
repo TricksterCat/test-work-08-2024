@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf64dd0d9a46fa95baa04ecfe87d6f, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  _data:
+  - Key: wizard_character
+    Value:
+      _availableDefault: 1
+      _name: Mag
+      _description: This is mag
+      _prefab:
+        m_AssetGUID: 1ff691264bceb62458c15adeb3265986
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      _preview:
+        m_AssetGUID: c2459f32067f6c547945e60c9857c066
+        m_SubObjectName: wizard
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      _weapons:
+      - weapon_1
+      - weapon_2
+      _deadFx: OnDead
+      _hp: 50
+      _speed: 1.75
+      _defense: 0.1
+  - Key: wizard_character_2
+    Value:
+      _availableDefault: 1
+      _name: Mag 2
+      _description: This is mag 2
+      _prefab:
+        m_AssetGUID: 5bdb398ad06e04945b24ad7215fd670f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      _preview:
+        m_AssetGUID: 4a505803d8e018f49aecb727ac1e469f
+        m_SubObjectName: ogre_magi
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      _weapons:
+      - weapon_1
+      - weapon_2
+      _deadFx: OnDead
+      _hp: 100
+      _speed: 1.25
+      _defense: 0.25

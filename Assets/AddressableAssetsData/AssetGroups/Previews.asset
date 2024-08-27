@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Previews
+  m_EditorClassIdentifier: 
+  m_GroupName: Previews
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2791ce2f07d381646a680f074cac5d76
+  m_SerializeEntries:
+  - m_GUID: c2459f32067f6c547945e60c9857c066
+    m_Address: Assets/Content/Characters/Mag/Textures/wizard.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a505803d8e018f49aecb727ac1e469f
+    m_Address: Assets/Content/Characters/Mag2/Textures/ogre_magi.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23c9fee9d3c8fdc45a76b0eedaa50adb
+    m_Address: Assets/Content/Weapons/Weapon_1/Textures/weapon_1_preview.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 198f9a0672b8d9d40b47a8bb68236178
+    m_Address: Assets/Content/Weapons/Weapon_2/Textures/weapon_2_preview.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7dd5d1141893a63478b12ee143bc58e8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ec82e45867f3c494da2890791037c6d8, type: 2}
+    - {fileID: 11400000, guid: e927f00b4f5733b4aa6bfc9445684373, type: 2}

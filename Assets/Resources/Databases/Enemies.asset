@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d63062db5d547559477a9294d47f497, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: 
+  _data:
+  - Key: Bat
+    Value:
+      _prefab:
+        m_AssetGUID: 003171fa100ae2849be863a48ac0f1f1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      _availableDefault: 1
+      _deadFx: OnDead
+      _hp: 50
+      _damage: 5
+      _speed: 1
+      _defense: 0.1
+  - Key: Bat_2
+    Value:
+      _prefab:
+        m_AssetGUID: f10195f2e4d321840bcefd5479f46a4f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      _availableDefault: 1
+      _deadFx: OnDead
+      _hp: 100
+      _damage: 10
+      _speed: 0.9
+      _defense: 0.2
